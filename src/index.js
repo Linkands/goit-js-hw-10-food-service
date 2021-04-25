@@ -1,7 +1,7 @@
 
 import menuList from './menu.json'
 import './sass/main.scss';
-import cardTpl from './templates/card.hbs'
+import cardTpl from './partials/card.hbs'
 
 const Theme = {
   LIGHT: 'light-theme',
