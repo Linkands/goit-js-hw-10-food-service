@@ -2262,7 +2262,7 @@ THE SOFTWARE.
 });
 
 ;
-},{}],"templates/card.hbs":[function(require,module,exports) {
+},{}],"partials/card.hbs":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2396,7 +2396,7 @@ var _menu = _interopRequireDefault(require("./menu.json"));
 
 require("./sass/main.scss");
 
-var _card = _interopRequireDefault(require("./templates/card.hbs"));
+var _card = _interopRequireDefault(require("./partials/card.hbs"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2448,7 +2448,7 @@ if (themeInLocalStorage === 'light-theme') {
   body.classList.add(Theme.DARK);
   themeSwitch.checked = true;
 }
-},{"./menu.json":"menu.json","./sass/main.scss":"sass/main.scss","./templates/card.hbs":"templates/card.hbs"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./menu.json":"menu.json","./sass/main.scss":"sass/main.scss","./partials/card.hbs":"partials/card.hbs"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -2476,7 +2476,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57473" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58267" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
